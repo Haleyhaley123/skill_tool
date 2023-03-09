@@ -1,0 +1,58 @@
+<div class="left-bar">
+    <div class="nav-header text-center" style="height: 202px;padding-top: 32px;">
+        <a [routerLink]="'/pcmt&tp'" class="brand-logo" style="text-decoration: none;">
+            <!-- <img class="logo" [src]="appSetting.MenuFolded? './assets/img/logo-min.png':'./assets/img/logo.png'" -->
+                <!-- style="width:64px;height:78.55px"> -->
+            <span *ngIf="!appSetting.MenuFolded" class="text-center">
+                <div style="text-align: center;padding-top: 7.45px;font-size:24px;">
+                    <span style="color: white;">Nhân Tín Soft</span><br>
+                    <!-- <span style="color: #ffffff;">CỤC PCMT & TP</span> -->
+                </div>
+            </span>
+        </a>
+        <!-- <div class="nav-control">
+            <div class="humbuger-icon" [ngClass]="{'is-active':appSetting.MenuFolded}" (click)="navToggle()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div> -->
+    </div>
+    <perfect-scrollbar class="ps-bordered" class="left-bar-scroll">
+        <ul class="left-bar-menu nav-show">
+            <!-- <li class="active">
+                <a class="nav-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-home"></i>
+                    <span class="nav-text">Trang chủ</span>
+                </a>
+                <ul aria-expanded="false" class="nav-collapse nav-show">
+                    <li class="active"><a href="index.html" class="active">Dashboard</a></li>
+                    <li><a href="my-wallets.html">Wallet</a></li>
+                    <li><a href="tranasactions.html">Transactions</a></li>
+                    <li><a href="coin-details.html">Coin Details</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="market-capital.html">Market Capital</a></li>
+                </ul>
+            </li>
+            <li class="">
+                <a class="nav-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-workflow"></i>
+                    <span class="nav-text">Workflow</span>
+                </a>
+                <ul aria-expanded="false" class="nav-collapse">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="my-wallets.html">Wallet</a></li>
+                    <li><a href="tranasactions.html">Transactions</a></li>
+                    <li><a href="coin-details.html">Coin Details</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="market-capital.html">Market Capital</a></li>
+                </ul>
+            </li> -->
+
+            <ng-container *ngFor="let item of navigation">
+                <nav-collapsable *ngIf="item.type=='collapsable'" [item]="item"></nav-collapsable>
+                <nav-item *ngIf="item.type=='item'" [item]="item"></nav-item>
+            </ng-container>
+        </ul>
+    </perfect-scrollbar>
+</div>

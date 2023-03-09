@@ -1,0 +1,80 @@
+<div class='content-wrapper page-content'>
+    <section class="search-left">
+        <div class="content-body">
+            <ejs-treegrid #grid [dataSource]='groupCategories' parentIdMapping='parentId' idMapping='id'
+                (dataSourceChange)="onChange($event)" [searchSettings]='searchSettingModel' [allowFiltering]="false"
+                (rowSelected)="rowSelected($event)" [toolbar]='toolbar' [height]="height">
+                <e-columns>
+                    <e-column field='name' headerText='Nhóm danh mục' textAlign='Left' min-width=200>
+                    </e-column>
+                </e-columns>
+            </ejs-treegrid>
+        </div>
+    </section>
+    <section class="body-right">
+        <section class="box">
+            <header>
+                <h2 class="title">Danh sách {{name}} ({{searchModel.totalItems}})</h2>
+                <div class="actions">
+                    <button type="button" class="btn btn-success" (click)="export()" container="body">
+                        <i class="fas fa-file-export"></i>
+                        Export
+                    </button>
+                    <button type="button" class="btn btn-success" (click)="showCreateUpdate('')" container="body"
+                        [hidden]="!searchModel.tableName">
+                        <i class="fa fa-plus"></i>
+                        Thêm mới
+                    </button>
+                </div>
+            </header>
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12 col-lg-12">
+                        <perfect-scrollbar class="ps-bordered" [config]="constant.ScrollXConfig"
+                            style="height:auto; width:100%;">
+                            <table class="table table-bordered table-tr-fixed" style="min-width:450px">
+                                <thead>
+                                    <tr>
+                                        <th width="50px" class="text-center">STT</th>
+                                        <th width="100px" class="text-center">Xử lý</th>
+                                        <th min-width="300px" class="text-center">Tên {{name}}</th>
+                                    </tr>
+                                </thead>
+                                <tbody cdkDropList (cdkDropListDropped)="onDrop($event)">
+                                    <tr *ngFor="let row of categories; let i = index" cdkDrag cdkDragLockAxis="y">
+                                        <td class="text-center" cdkDragHandle>
+                                            <span class="fas fa-arrows-alt" aria-hidden="true"></span>&nbsp;{{i+1}}
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-xs btn-warning" (click)='showCreateUpdate(row.id)'
+                                                placement="bottom" ngbTooltip="Cập nhật" container="body">
+                                                <span class="fa fa-edit" aria-hidden="true"></span>
+                                            </button>
+                                            <button class="btn btn-xs btn-danger" (click)="showConfirmDelete(row.id)"
+                                                placement="bottom" ngbTooltip="Xóa" container="body">
+                                                <span class="fas fa-times" aria-hidden="true"></span>
+                                            </button>
+                                        </td>
+                                        <td>{{row.name}}</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot *ngIf="categories.length == 0">
+                                    <tr class="bold">
+                                        <td colspan="6" class="text-center image-no-data">
+                                            <div>
+                                                <img src="./assets/img/no-data.png">
+                                                <div>
+                                                    Không có dữ liệu
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </perfect-scrollbar>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>

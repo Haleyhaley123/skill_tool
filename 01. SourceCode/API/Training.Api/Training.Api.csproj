@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>01acabe4-bdd9-4944-9fc4-4507e6539577</UserSecretsId>
+    <RazorCompileOnBuild>false</RazorCompileOnBuild>
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
+    <Platforms>AnyCPU;x86;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Template\BaoCaoTongHop\**" />
+    <Compile Remove="Template\BaoCaoVuViec\**" />
+    <Compile Remove="Template\PhuLuc\**" />
+    <Content Remove="Template\BaoCaoTongHop\**" />
+    <Content Remove="Template\BaoCaoVuViec\**" />
+    <Content Remove="Template\PhuLuc\**" />
+    <EmbeddedResource Remove="Template\BaoCaoTongHop\**" />
+    <EmbeddedResource Remove="Template\BaoCaoVuViec\**" />
+    <EmbeddedResource Remove="Template\PhuLuc\**" />
+    <None Remove="Template\BaoCaoTongHop\**" />
+    <None Remove="Template\BaoCaoVuViec\**" />
+    <None Remove="Template\PhuLuc\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Template\BaoCao_ChuyenDe.docx" />
+    <None Remove="Template\BaoCao_LucLuongMat.docx" />
+    <None Remove="Template\BaoCao_TrinhSatNoiTuyen.docx" />
+    <None Remove="Template\CanBo.xlsx" />
+    <None Remove="Template\CanBoGapNan.xlsx" />
+    <None Remove="Template\ChuyenAn.docx" />
+    <None Remove="Template\ChuyenAn.xlsx" />
+    <None Remove="Template\ChuyenAnPhoiHop.docx" />
+    <None Remove="Template\ChuyenAnPhoiHop.xlsx" />
+    <None Remove="Template\ChuyenDe.xlsx" />
+    <None Remove="Template\DanhSachNguoiNghien.xlsx" />
+    <None Remove="Template\DoiTuong.xlsx" />
+    <None Remove="Template\DoiTuongKTNV.docx" />
+    <None Remove="Template\DoiTuongKTNV.xlsx" />
+    <None Remove="Template\DoiTuongQLNV.docx" />
+    <None Remove="Template\DoiTuongQLNV.xlsx" />
+    <None Remove="Template\DoiTuongTruyNa.xlsx" />
+    <None Remove="Template\DonThuKhieuNai.xlsx" />
+    <None Remove="Template\DTCB_DiaBan.docx" />
+    <None Remove="Template\DTCB_DiaBan.xlsx" />
+    <None Remove="Template\DTCB_DiaBanLienQuan.docx" />
+    <None Remove="Template\DTCB_DiaBanLienQuan.xlsx" />
+    <None Remove="Template\DTHS.xlsx" />
+    <None Remove="Template\HƯỚNG DẪN SỬ DỤNG PHẦM MỀM TRÊN WEB.docx" />
+    <None Remove="Template\KhenThuongCN.xlsx" />
+    <None Remove="Template\KhenThuongTT.xlsx" />
+    <None Remove="Template\KTNV.xlsx" />
+    <None Remove="Template\KyLuatCN.xlsx" />
+    <None Remove="Template\KyLuatTT.xlsx" />
+    <None Remove="Template\LichSuThaoTac.xlsx" />
+    <None Remove="Template\LucLuongMat.xlsx" />
+    <None Remove="Template\NanNhanMBN.xlsx" />
+    <None Remove="Template\PhoiHopDTXL.xlsx" />
+    <None Remove="Template\Question_Template.xlsx" />
+    <None Remove="Template\SuuTapDiaBan.xlsx" />
+    <None Remove="Template\SuuTapTuDiem.docx" />
+    <None Remove="Template\SuuTapTuDiem.xlsx" />
+    <None Remove="Template\SuuTap_DiaBanNgBien.docx" />
+    <None Remove="Template\ThuongNong.xlsx" />
+    <None Remove="Template\TinBaoToiPham.xlsx" />
+    <None Remove="Template\TrangBiKyThuat.xlsx" />
+    <None Remove="Template\TrinhSatNoiTuyen.xlsx" />
+    <None Remove="Template\Tuyen.docx" />
+    <None Remove="Template\Tuyen.xlsx" />
+    <None Remove="Template\TuyenNgB.docx" />
+    <None Remove="Template\TuyenNgB.xlsx" />
+    <None Remove="Template\TuyenNgoaiBien.xlsx" />
+    <None Remove="Template\VanBanNoiBo.xlsx" />
+    <None Remove="Template\VanBanQPNB.xlsx" />
+    <None Remove="Template\VanBanQPPL.xlsx" />
+    <None Remove="Template\ViPhamHC.xlsx" />
+    <None Remove="Template\XNCTP.xlsx" />
+    <None Remove="Template\XuLyTaiSan.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.0-preview1-20180920-03" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.MsgPack" Version="1.0.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NTS.Document\NTS.Document.csproj" />
+    <ProjectReference Include="..\NTSCommon\NTS.Common.csproj" />
+    <ProjectReference Include="..\Training.Models\Training.Models.csproj" />
+    <ProjectReference Include="..\Training.Services\Training.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Export\" />
+    <Folder Include="FileUpload\" />
+    <Folder Include="Template\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

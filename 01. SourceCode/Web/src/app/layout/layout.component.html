@@ -1,0 +1,14 @@
+<!-- <app-view-tab></app-view-tab> -->
+<div class="main-wrapper" [ngClass]="{'menu-toggle':appSetting.MenuFolded}" appUisectionbox>
+
+    <app-page-toolbar></app-page-toolbar>
+    <app-top-bar></app-top-bar>
+    <app-left-bar></app-left-bar>
+    <div class="content-container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<!-- <app-notify-list>
+</app-notify-list> -->
+<!-- <app-theme>
+</app-theme> -->

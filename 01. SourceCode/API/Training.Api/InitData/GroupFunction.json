@@ -1,0 +1,1686 @@
+﻿{
+  "Groups": [
+    {
+      "Id": "GF0001",
+      "Code": "GF0001",
+      "Name": "ĐTCB địa bàn",
+      "Index": "1"
+    },
+    {
+      "Id": "GF0002",
+      "Code": "GF0002",
+      "Name": "ĐTCB tuyến",
+      "Index": "2"
+    },
+    {
+      "Id": "GF0003",
+      "Code": "GF0003",
+      "Name": "ĐTCB chuyên đề",
+      "Index": "3"
+    },
+    {
+      "Id": "GF0004",
+      "Code": "GF0004",
+      "Name": "QLNV",
+      "Index": "4"
+    },
+    {
+      "Id": "GF0005",
+      "Code": "GF0005",
+      "Name": "KTNV",
+      "Index": "5"
+    },
+    {
+      "Id": "GF0006",
+      "Code": "GF0006",
+      "Name": "Chuyên án",
+      "Index": "6"
+    },
+    {
+      "Id": "GF0007",
+      "Code": "GF0007",
+      "Name": "ĐTHS",
+      "Index": "7"
+    },
+    {
+      "Id": "GF0008",
+      "Code": "GF0008",
+      "Name": "Thưởng nóng",
+      "Index": "8"
+    },
+    {
+      "Id": "GF0009",
+      "Code": "GF0009",
+      "Name": "ĐTCB địa bàn liên quan",
+      "Index": "9"
+    },
+    {
+      "Id": "GF0010",
+      "Code": "GF0010",
+      "Name": "Sưu tập địa bàn",
+      "Index": "10"
+    },
+    {
+      "Id": "GF0011",
+      "Code": "GF0011",
+      "Name": "Sưu tập tuyến",
+      "Index": "11"
+    },
+    {
+      "Id": "GF0012",
+      "Code": "GF0012",
+      "Name": "Sưu tập tụ điểm",
+      "Index": "12"
+    },
+    {
+      "Id": "GF0013",
+      "Code": "GF0013",
+      "Name": "Lực lượng mật",
+      "Index": "13"
+    },
+    {
+      "Id": "GF0014",
+      "Code": "GF0014",
+      "Name": "Trinh sát nội tuyến",
+      "Index": "14"
+    },
+    {
+      "Id": "GF0015",
+      "Code": "GF0015",
+      "Name": "Vi phạm hành chính",
+      "Index": "15"
+    },
+    {
+      "Id": "GF0016",
+      "Code": "GF0016",
+      "Name": "Quản lý nạn nhân bị mua bán",
+      "Index": "16"
+    },
+    {
+      "Id": "GF0017",
+      "Code": "GF0017",
+      "Name": "Quản lý người nghiện",
+      "Index": "17"
+    },
+    {
+      "Id": "GF0018",
+      "Code": "GF0018",
+      "Name": "Tra cứu đối tượng vi phạm",
+      "Index": "18"
+    },
+    {
+      "Id": "GF0019",
+      "Code": "GF0019",
+      "Name": "Quản lý văn bản nội bộ",
+      "Index": "19"
+    },
+    {
+      "Id": "GF0020",
+      "Code": "GF0020",
+      "Name": "Quản lý văn bản QLPL, QPNB",
+      "Index": "20"
+    },
+    {
+      "Id": "GF0021",
+      "Code": "GF0021",
+      "Name": "Quản lý danh mục",
+      "Index": "21"
+    },
+    {
+      "Id": "GF0026",
+      "Code": "GF0026",
+      "Name": "Nhập dữ liệu",
+      "Index": "26"
+    },
+    {
+      "Id": "GF0029",
+      "Code": "GF0029",
+      "Name": "Quản lý người dùng",
+      "Index": "29"
+    },
+    {
+      "Id": "GF0030",
+      "Code": "GF0030",
+      "Name": "Quản lý nhóm người dùng",
+      "Index": "30"
+    },
+    {
+      "Id": "GF0031",
+      "Code": "GF0031",
+      "Name": "Lịch sử thao tác",
+      "Index": "31"
+    },
+    {
+      "Id": "GF0032",
+      "Code": "GF0032",
+      "Name": "Trang chủ",
+      "Index": "32"
+    },
+    {
+      "Id": "GF0033",
+      "Code": "GF0033",
+      "Name": "Quản lý đơn vị",
+      "Index": "33"
+    },
+    {
+      "Id": "GF0034",
+      "Code": "GF0034",
+      "Name": "Quản lý cán bộ",
+      "Index": "34"
+    },
+    {
+      "Id": "GF0035",
+      "Code": "GF0035",
+      "Name": "Quản lý cán bộ hs, bị thương, phơi nhiễm",
+      "Index": "35"
+    },
+    {
+      "Id": "GF0037",
+      "Code": "GF0037",
+      "Name": "Khen thưởng cá nhân",
+      "Index": "37"
+    },
+    {
+      "Id": "GF0038",
+      "Code": "GF0038",
+      "Name": "Khen thưởng tập thể",
+      "Index": "38"
+    },
+    {
+      "Id": "GF0039",
+      "Code": "GF0039",
+      "Name": "Kỷ luật cá nhân",
+      "Index": "39"
+    },
+    {
+      "Id": "GF0040",
+      "Code": "GF0040",
+      "Name": "Kỷ luật tập thể",
+      "Index": "40"
+    },
+    {
+      "Id": "GF0041",
+      "Code": "GF0041",
+      "Name": "Tin báo tội phạm",
+      "Index": "41"
+    },
+    {
+      "Id": "GF0042",
+      "Code": "GF0042",
+      "Name": "Đơn thư khiếu nại",
+      "Index": "42"
+    },
+    {
+      "Id": "GF0043",
+      "Code": "GF0043",
+      "Name": "Đối tượng truy nã",
+      "Index": "43"
+    },
+    {
+      "Id": "GF0044",
+      "Code": "GF0044",
+      "Name": "Xuất nhập cảnh trái phép",
+      "Index": "44"
+    },
+    {
+      "Id": "GF0045",
+      "Code": "GF0045",
+      "Name": "Phối hợp điều tra xử lý",
+      "Index": "45"
+    },
+    {
+      "Id": "GF0046",
+      "Code": "GF0046",
+      "Name": "Phương án xử lý tài sản",
+      "Index": "46"
+    },
+    {
+      "Id": "GF0047",
+      "Code": "GF0047",
+      "Name": "Xuất dữ liệu",
+      "Index": "47"
+    }
+  ],
+  "Functions": [
+    {
+      "Id": "F000000",
+      "Code": "F000000",
+      "GroupId": "GF0032",
+      "Name": "Xem trang chủ",
+      "ScreenCode": "F000000",
+      "Index": "1"
+    },
+    {
+      "Id": "F000101",
+      "Code": "F000101",
+      "GroupId": "GF0001",
+      "Name": "Xem thông tin chi tiết địa bàn",
+      "ScreenCode": "F000100",
+      "Index": "1"
+    },
+    {
+      "Id": "F000102",
+      "Code": "F000102",
+      "GroupId": "GF0001",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000100",
+      "Index": "2"
+    },
+    {
+      "Id": "F000103",
+      "Code": "F000103",
+      "GroupId": "GF0001",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000100",
+      "Index": "3"
+    },
+    {
+      "Id": "F000104",
+      "Code": "F000104",
+      "GroupId": "GF0001",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000100",
+      "Index": "4"
+    },
+    {
+      "Id": "F000105",
+      "Code": "F000105",
+      "GroupId": "GF0001",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000100",
+      "Index": "5"
+    },
+    {
+      "Id": "F000151",
+      "Code": "F000151",
+      "GroupId": "GF0004",
+      "Name": "Xem chi tiết đối tượng QLNV",
+      "ScreenCode": "F000150",
+      "Index": "1"
+    },
+    {
+      "Id": "F000152",
+      "Code": "F000152",
+      "GroupId": "GF0004",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000150",
+      "Index": "2"
+    },
+    {
+      "Id": "F000153",
+      "Code": "F000153",
+      "GroupId": "GF0004",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000150",
+      "Index": "3"
+    },
+    {
+      "Id": "F000154",
+      "Code": "F000154",
+      "GroupId": "GF0004",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000150",
+      "Index": "4"
+    },
+    {
+      "Id": "F000155",
+      "Code": "F000155",
+      "GroupId": "GF0004",
+      "Name": "Xem thống kê quản lý nghiệp vụ",
+      "ScreenCode": "F000150",
+      "Index": "5"
+    },
+    {
+      "Id": "F000156",
+      "Code": "F000156",
+      "GroupId": "GF0004",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000150",
+      "Index": "6"
+    },
+    {
+      "Id": "F000201",
+      "Code": "F000201",
+      "GroupId": "GF0005",
+      "Name": "Xem chi tiết đối tượng KTNV",
+      "ScreenCode": "F000200",
+      "Index": "1"
+    },
+    {
+      "Id": "F000202",
+      "Code": "F000202",
+      "GroupId": "GF0005",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000200",
+      "Index": "2"
+    },
+    {
+      "Id": "F000203",
+      "Code": "F000203",
+      "GroupId": "GF0005",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000200",
+      "Index": "3"
+    },
+    {
+      "Id": "F000204",
+      "Code": "F000204",
+      "GroupId": "GF0005",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000200",
+      "Index": "4"
+    },
+    {
+      "Id": "F000205",
+      "Code": "F000205",
+      "GroupId": "GF0005",
+      "Name": "Xem thống kê kiểm tra nghiệp vụ",
+      "ScreenCode": "F000200",
+      "Index": "5"
+    },
+    {
+      "Id": "F000206",
+      "Code": "F000206",
+      "GroupId": "GF0005",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000200",
+      "Index": "6"
+    },
+    {
+      "Id": "F000251",
+      "Code": "F000251",
+      "GroupId": "GF0006",
+      "Name": "Xem chi tiết chuyên án",
+      "ScreenCode": "F000250",
+      "Index": "1"
+    },
+    {
+      "Id": "F000252",
+      "Code": "F000252",
+      "GroupId": "GF0006",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000250",
+      "Index": "2"
+    },
+    {
+      "Id": "F000253",
+      "Code": "F000253",
+      "GroupId": "GF0006",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000250",
+      "Index": "3"
+    },
+    {
+      "Id": "F000254",
+      "Code": "F000254",
+      "GroupId": "GF0006",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000250",
+      "Index": "4"
+    },
+    {
+      "Id": "F000255",
+      "Code": "F000255",
+      "GroupId": "GF0006",
+      "Name": "Xem thống kê chuyên án",
+      "ScreenCode": "F000250",
+      "Index": "5"
+    },
+    {
+      "Id": "F000256",
+      "Code": "F000256",
+      "GroupId": "GF0006",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000250",
+      "Index": "6"
+    },
+    {
+      "Id": "F000301",
+      "Code": "F000301",
+      "GroupId": "GF0012",
+      "Name": "Xem chi tiết tụ điểm",
+      "ScreenCode": "F000300",
+      "Index": "1"
+    },
+    {
+      "Id": "F000302",
+      "Code": "F000302",
+      "GroupId": "GF0012",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000300",
+      "Index": "2"
+    },
+    {
+      "Id": "F000303",
+      "Code": "F000303",
+      "GroupId": "GF0012",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000300",
+      "Index": "3"
+    },
+    {
+      "Id": "F000304",
+      "Code": "F000304",
+      "GroupId": "GF0012",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "",
+      "Index": "4"
+    },
+    {
+      "Id": "F000305",
+      "Code": "F000305",
+      "GroupId": "GF0012",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "",
+      "Index": "5"
+    },
+    {
+      "Id": "F000351",
+      "Code": "F000351",
+      "GroupId": "GF0013",
+      "Name": "Xem chi tiết lực lượng mật",
+      "ScreenCode": "F000350",
+      "Index": "1"
+    },
+    {
+      "Id": "F000352",
+      "Code": "F000352",
+      "GroupId": "GF0013",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000350",
+      "Index": "2"
+    },
+    {
+      "Id": "F000353",
+      "Code": "F000353",
+      "GroupId": "GF0013",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000350",
+      "Index": "3"
+    },
+    {
+      "Id": "F000354",
+      "Code": "F000354",
+      "GroupId": "GF0013",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000350",
+      "Index": "4"
+    },
+    {
+      "Id": "F000355",
+      "Code": "F000355",
+      "GroupId": "GF0013",
+      "Name": "Xem thống kê lực lượng mật",
+      "ScreenCode": "F000350",
+      "Index": "5"
+    },
+    {
+      "Id": "F000356",
+      "Code": "F000356",
+      "GroupId": "GF0013",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000350",
+      "Index": "6"
+    },
+    {
+      "Id": "F000401",
+      "Code": "F000401",
+      "GroupId": "GF0014",
+      "Name": "Xem chi tiết trinh sát nội tuyến",
+      "ScreenCode": "F000400",
+      "Index": "1"
+    },
+    {
+      "Id": "F000402",
+      "Code": "F000402",
+      "GroupId": "GF0014",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000400",
+      "Index": "2"
+    },
+    {
+      "Id": "F000403",
+      "Code": "F000403",
+      "GroupId": "GF0014",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000400",
+      "Index": "3"
+    },
+    {
+      "Id": "F000404",
+      "Code": "F000404",
+      "GroupId": "GF0014",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000400",
+      "Index": "4"
+    },
+    {
+      "Id": "F000405",
+      "Code": "F000405",
+      "GroupId": "GF0014",
+      "Name": "Xem thống kê trinh sát nội tuyến",
+      "ScreenCode": "F000400",
+      "Index": "5"
+    },
+    {
+      "Id": "F000406",
+      "Code": "F000406",
+      "GroupId": "GF0014",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F000400",
+      "Index": "6"
+    },
+    {
+      "Id": "F000451",
+      "Code": "F000451",
+      "GroupId": "GF0016",
+      "Name": "Xem chi tiết nạn nhân bị mua bán",
+      "ScreenCode": "F000450",
+      "Index": "1"
+    },
+    {
+      "Id": "F000452",
+      "Code": "F000452",
+      "GroupId": "GF0016",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000450",
+      "Index": "2"
+    },
+    {
+      "Id": "F000453",
+      "Code": "F000453",
+      "GroupId": "GF0016",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000450",
+      "Index": "3"
+    },
+    {
+      "Id": "F000454",
+      "Code": "F000454",
+      "GroupId": "GF0016",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000450",
+      "Index": "4"
+    },
+    {
+      "Id": "F000501",
+      "Code": "F000501",
+      "GroupId": "GF0017",
+      "Name": "Xem chi tiết nạn nhân bị mua bán",
+      "ScreenCode": "F000500",
+      "Index": "1"
+    },
+    {
+      "Id": "F000502",
+      "Code": "F000502",
+      "GroupId": "GF0017",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F000500",
+      "Index": "2"
+    },
+    {
+      "Id": "F000503",
+      "Code": "F000503",
+      "GroupId": "GF0017",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F000500",
+      "Index": "3"
+    },
+    {
+      "Id": "F000504",
+      "Code": "F000504",
+      "GroupId": "GF0017",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F000500",
+      "Index": "4"
+    },
+    {
+      "Id": "F000505",
+      "Code": "F000505",
+      "GroupId": "GF0017",
+      "Name": "Xem thống kê quản lý người nghiện",
+      "ScreenCode": "F000500",
+      "Index": "5"
+    },
+    {
+      "Id": "F000551",
+      "Code": "F000551",
+      "GroupId": "GF0021",
+      "Name": "Thêm mới danh mục",
+      "ScreenCode": "F000550",
+      "Index": "1"
+    },
+    {
+      "Id": "F000552",
+      "Code": "F000552",
+      "GroupId": "GF0021",
+      "Name": "Chỉnh sửa danh mục",
+      "ScreenCode": "F000550",
+      "Index": "2"
+    },
+    {
+      "Id": "F000553",
+      "Code": "F000553",
+      "GroupId": "GF0021",
+      "Name": "Xóa danh mục",
+      "ScreenCode": "F000550",
+      "Index": "3"
+    },
+    {
+      "Id": "F000801",
+      "Code": "F000801",
+      "GroupId": "GF0026",
+      "Name": "Nhập dữ liệu",
+      "ScreenCode": "F000800",
+      "Index": "1"
+    },
+    {
+      "Id": "F000951",
+      "Code": "F000951",
+      "GroupId": "GF0029",
+      "Name": "Thêm mới tài khoản",
+      "ScreenCode": "F000950",
+      "Index": "1"
+    },
+    {
+      "Id": "F000952",
+      "Code": "F000952",
+      "GroupId": "GF0029",
+      "Name": "Chỉnh sửa tài khoản",
+      "ScreenCode": "F000950",
+      "Index": "2"
+    },
+    {
+      "Id": "F000953",
+      "Code": "F000953",
+      "GroupId": "GF0029",
+      "Name": "Xóa tài khoản",
+      "ScreenCode": "F000950",
+      "Index": "3"
+    },
+    {
+      "Id": "F000954",
+      "Code": "F000954",
+      "GroupId": "GF0029",
+      "Name": "Xem thông tin tài khoản",
+      "ScreenCode": "F000950",
+      "Index": "4"
+    },
+    {
+      "Id": "F000955",
+      "Code": "F000955",
+      "GroupId": "GF0029",
+      "Name": "Đặt lại mật khẩu",
+      "ScreenCode": "F000950",
+      "Index": "5"
+    },
+    {
+      "Id": "F000956",
+      "Code": "F000956",
+      "GroupId": "GF0029",
+      "Name": "Đổi trạng thái tài khoản",
+      "ScreenCode": "F000950",
+      "Index": "6"
+    },
+    {
+      "Id": "F001001",
+      "Code": "F001001",
+      "GroupId": "GF0030",
+      "Name": "Thêm mới đơn vị tính",
+      "ScreenCode": "F001000",
+      "Index": "1"
+    },
+    {
+      "Id": "F001002",
+      "Code": "F001002",
+      "GroupId": "GF0030",
+      "Name": "Chỉnh sửa đơn vị tính",
+      "ScreenCode": "F001000",
+      "Index": "2"
+    },
+    {
+      "Id": "F001003",
+      "Code": "F001003",
+      "GroupId": "GF0030",
+      "Name": "Xóa đơn vị tính",
+      "ScreenCode": "F001000",
+      "Index": "3"
+    },
+    {
+      "Id": "F001051",
+      "Code": "F001051",
+      "GroupId": "GF0002",
+      "Name": "Xem thông tin tuyến",
+      "ScreenCode": "F001050",
+      "Index": "1"
+    },
+    {
+      "Id": "F001052",
+      "Code": "F001052",
+      "GroupId": "GF0002",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001050",
+      "Index": "2"
+    },
+    {
+      "Id": "F001053",
+      "Code": "F001053",
+      "GroupId": "GF0002",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001050",
+      "Index": "3"
+    },
+    {
+      "Id": "F001054",
+      "Code": "F001054",
+      "GroupId": "GF0002",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F001050",
+      "Index": "4"
+    },
+    {
+      "Id": "F001055",
+      "Code": "F001055",
+      "GroupId": "GF0002",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F001050",
+      "Index": "5"
+    },
+    {
+      "Id": "F001101",
+      "Code": "F001101",
+      "GroupId": "GF0003",
+      "Name": "Xem thông tin chuyên đề",
+      "ScreenCode": "F001100",
+      "Index": "1"
+    },
+    {
+      "Id": "F001102",
+      "Code": "F001102",
+      "GroupId": "GF0003",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001100",
+      "Index": "2"
+    },
+    {
+      "Id": "F001103",
+      "Code": "F001103",
+      "GroupId": "GF0003",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001100",
+      "Index": "3"
+    },
+    {
+      "Id": "F001104",
+      "Code": "F001104",
+      "GroupId": "GF0003",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F001100",
+      "Index": "4"
+    },
+    {
+      "Id": "F001105",
+      "Code": "F001105",
+      "GroupId": "GF0003",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F001100",
+      "Index": "5"
+    },
+    {
+      "Id": "F001151",
+      "Code": "F001151",
+      "GroupId": "GF0010",
+      "Name": "Xem thông tin địa bàn ngoại biên",
+      "ScreenCode": "F001150",
+      "Index": "1"
+    },
+    {
+      "Id": "F001152",
+      "Code": "F001152",
+      "GroupId": "GF0010",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001150",
+      "Index": "2"
+    },
+    {
+      "Id": "F001153",
+      "Code": "F001153",
+      "GroupId": "GF0010",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001150",
+      "Index": "3"
+    },
+    {
+      "Id": "F001154",
+      "Code": "F001154",
+      "GroupId": "GF0010",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F001150",
+      "Index": "4"
+    },
+    {
+      "Id": "F001155",
+      "Code": "F001155",
+      "GroupId": "GF0010",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F001150",
+      "Index": "5"
+    },
+    {
+      "Id": "F001201",
+      "Code": "F001201",
+      "GroupId": "GF0011",
+      "Name": "Xem thông tin tuyến ngoại biên",
+      "ScreenCode": "F001200",
+      "Index": "1"
+    },
+    {
+      "Id": "F001202",
+      "Code": "F001202",
+      "GroupId": "GF0011",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001200",
+      "Index": "2"
+    },
+    {
+      "Id": "F001203",
+      "Code": "F001203",
+      "GroupId": "GF0011",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001200",
+      "Index": "3"
+    },
+    {
+      "Id": "F001204",
+      "Code": "F001204",
+      "GroupId": "GF0011",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F001200",
+      "Index": "4"
+    },
+    {
+      "Id": "F001205",
+      "Code": "F001205",
+      "GroupId": "GF0011",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F001200",
+      "Index": "5"
+    },
+    {
+      "Id": "F001251",
+      "Code": "F001251",
+      "GroupId": "GF0031",
+      "Name": "Xem lịch sử thao tác",
+      "ScreenCode": "F001250",
+      "Index": "1"
+    },
+    {
+      "Id": "F001252",
+      "Code": "F001252",
+      "GroupId": "GF0031",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001250",
+      "Index": "2"
+    },
+    {
+      "Id": "F001253",
+      "Code": "F001253",
+      "GroupId": "GF0031",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001250",
+      "Index": "3"
+    },
+    {
+      "Id": "F001301",
+      "Code": "F001301",
+      "GroupId": "GF0033",
+      "Name": "Thêm mới đơn vị",
+      "ScreenCode": "F001300",
+      "Index": "1"
+    },
+    {
+      "Id": "F001302",
+      "Code": "F001302",
+      "GroupId": "GF0033",
+      "Name": "Chỉnh sửa đơn vị",
+      "ScreenCode": "F001300",
+      "Index": "2"
+    },
+    {
+      "Id": "F001303",
+      "Code": "F001303",
+      "GroupId": "GF0033",
+      "Name": "Thêm mới đồn biên phòng",
+      "ScreenCode": "F001300",
+      "Index": "3"
+    },
+    {
+      "Id": "F001304",
+      "Code": "F001304",
+      "GroupId": "GF0033",
+      "Name": "Chỉnh sửa đồn biên phòng",
+      "ScreenCode": "F001300",
+      "Index": "4"
+    },
+    {
+      "Id": "F001305",
+      "Code": "F001305",
+      "GroupId": "GF0033",
+      "Name": "Xóa đồn biên phòng",
+      "ScreenCode": "F001300",
+      "Index": "5"
+    },
+    {
+      "Id": "F001351",
+      "Code": "F001351",
+      "GroupId": "GF0034",
+      "Name": "Thêm mới cán bộ",
+      "ScreenCode": "F001350",
+      "Index": "1"
+    },
+    {
+      "Id": "F001352",
+      "Code": "F001352",
+      "GroupId": "GF0034",
+      "Name": "Chỉnh sửa cán bộ",
+      "ScreenCode": "F001350",
+      "Index": "2"
+    },
+    {
+      "Id": "F001353",
+      "Code": "F001353",
+      "GroupId": "GF0034",
+      "Name": "Xóa cán bộ",
+      "ScreenCode": "F001350",
+      "Index": "3"
+    },
+    {
+      "Id": "F001354",
+      "Code": "F001354",
+      "GroupId": "GF0034",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001350",
+      "Index": "4"
+    },
+    {
+      "Id": "F001355",
+      "Code": "F001355",
+      "GroupId": "GF0034",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001350",
+      "Index": "5"
+    },
+    {
+      "Id": "F001401",
+      "Code": "F001401",
+      "GroupId": "GF0035",
+      "Name": "Thêm mới cán bộ",
+      "ScreenCode": "F001400",
+      "Index": "1"
+    },
+    {
+      "Id": "F001402",
+      "Code": "F001402",
+      "GroupId": "GF0035",
+      "Name": "Chỉnh sửa cán bộ",
+      "ScreenCode": "F001400",
+      "Index": "2"
+    },
+    {
+      "Id": "F001403",
+      "Code": "F001403",
+      "GroupId": "GF0035",
+      "Name": "Xóa cán bộ",
+      "ScreenCode": "F001400",
+      "Index": "3"
+    },
+    {
+      "Id": "F001404",
+      "Code": "F001404",
+      "GroupId": "GF0035",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001400",
+      "Index": "4"
+    },
+    {
+      "Id": "F001405",
+      "Code": "F001405",
+      "GroupId": "GF0035",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001400",
+      "Index": "5"
+    },
+    {
+      "Id": "F001501",
+      "Code": "F001501",
+      "GroupId": "GF0037",
+      "Name": "Thêm mới khen thưởng cá nhân",
+      "ScreenCode": "F001500",
+      "Index": "1"
+    },
+    {
+      "Id": "F001502",
+      "Code": "F001502",
+      "GroupId": "GF0037",
+      "Name": "Chỉnh sửa khen thưởng cá nhân",
+      "ScreenCode": "F001500",
+      "Index": "2"
+    },
+    {
+      "Id": "F001503",
+      "Code": "F001503",
+      "GroupId": "GF0037",
+      "Name": "Xóa khen thưởng cá nhân",
+      "ScreenCode": "F001500",
+      "Index": "3"
+    },
+    {
+      "Id": "F001504",
+      "Code": "F001504",
+      "GroupId": "GF0037",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001500",
+      "Index": "4"
+    },
+    {
+      "Id": "F001505",
+      "Code": "F001505",
+      "GroupId": "GF0037",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001500",
+      "Index": "5"
+    },
+    {
+      "Id": "F001551",
+      "Code": "F001551",
+      "GroupId": "GF0038",
+      "Name": "Thêm mới khen thưởng tập thể",
+      "ScreenCode": "F001550",
+      "Index": "1"
+    },
+    {
+      "Id": "F001552",
+      "Code": "F001552",
+      "GroupId": "GF0038",
+      "Name": "Chỉnh sửa khen thưởng tập thể",
+      "ScreenCode": "F001550",
+      "Index": "2"
+    },
+    {
+      "Id": "F001553",
+      "Code": "F001553",
+      "GroupId": "GF0038",
+      "Name": "Xóa khen thưởng tập thể",
+      "ScreenCode": "F001550",
+      "Index": "3"
+    },
+    {
+      "Id": "F001554",
+      "Code": "F001554",
+      "GroupId": "GF0038",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001550",
+      "Index": "4"
+    },
+    {
+      "Id": "F001555",
+      "Code": "F001555",
+      "GroupId": "GF0038",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001550",
+      "Index": "5"
+    },
+    {
+      "Id": "F001601",
+      "Code": "F001601",
+      "GroupId": "GF0039",
+      "Name": "Thêm mới kỷ luật cá nhân",
+      "ScreenCode": "F001600",
+      "Index": "1"
+    },
+    {
+      "Id": "F001602",
+      "Code": "F001602",
+      "GroupId": "GF0039",
+      "Name": "Chỉnh sửa kỷ luật cá nhân",
+      "ScreenCode": "F001600",
+      "Index": "2"
+    },
+    {
+      "Id": "F001603",
+      "Code": "F001603",
+      "GroupId": "GF0039",
+      "Name": "Xóa kỷ luật cá nhân",
+      "ScreenCode": "F001600",
+      "Index": "3"
+    },
+    {
+      "Id": "F001604",
+      "Code": "F001604",
+      "GroupId": "GF0039",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001600",
+      "Index": "4"
+    },
+    {
+      "Id": "F001605",
+      "Code": "F001605",
+      "GroupId": "GF0039",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001600",
+      "Index": "5"
+    },
+    {
+      "Id": "F001651",
+      "Code": "F001651",
+      "GroupId": "GF0040",
+      "Name": "Thêm mới kỷ luật tập thể",
+      "ScreenCode": "F001650",
+      "Index": "1"
+    },
+    {
+      "Id": "F001652",
+      "Code": "F001652",
+      "GroupId": "GF0040",
+      "Name": "Chỉnh sửa kỷ luật tập thể",
+      "ScreenCode": "F001650",
+      "Index": "2"
+    },
+    {
+      "Id": "F001653",
+      "Code": "F001653",
+      "GroupId": "GF0040",
+      "Name": "Xóa kỷ luật tập thể",
+      "ScreenCode": "F001650",
+      "Index": "3"
+    },
+    {
+      "Id": "F001654",
+      "Code": "F001654",
+      "GroupId": "GF0040",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001650",
+      "Index": "4"
+    },
+    {
+      "Id": "F001655",
+      "Code": "F001655",
+      "GroupId": "GF0040",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001650",
+      "Index": "5"
+    },
+    {
+      "Id": "F001701",
+      "Code": "F001701",
+      "GroupId": "GF0020",
+      "Name": "Thêm mới văn bản QLPL",
+      "ScreenCode": "F001700",
+      "Index": "1"
+    },
+    {
+      "Id": "F001702",
+      "Code": "F001702",
+      "GroupId": "GF0020",
+      "Name": "Chỉnh sửa văn bản QLPL",
+      "ScreenCode": "F001700",
+      "Index": "2"
+    },
+    {
+      "Id": "F001703",
+      "Code": "F001703",
+      "GroupId": "GF0020",
+      "Name": "Xóa văn bản QLPL",
+      "ScreenCode": "F001700",
+      "Index": "3"
+    },
+    {
+      "Id": "F001704",
+      "Code": "F001704",
+      "GroupId": "GF0020",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001700",
+      "Index": "4"
+    },
+    {
+      "Id": "F001705",
+      "Code": "F001705",
+      "GroupId": "GF0020",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001700",
+      "Index": "5"
+    },
+    {
+      "Id": "F001751",
+      "Code": "F001751",
+      "GroupId": "GF0019",
+      "Name": "Thêm mới văn bản QLNB",
+      "ScreenCode": "F001750",
+      "Index": "1"
+    },
+    {
+      "Id": "F001752",
+      "Code": "F001752",
+      "GroupId": "GF0019",
+      "Name": "Chỉnh sửa văn bản QLNB",
+      "ScreenCode": "F001750",
+      "Index": "2"
+    },
+    {
+      "Id": "F001753",
+      "Code": "F001753",
+      "GroupId": "GF0019",
+      "Name": "Xóa văn bản QLNB",
+      "ScreenCode": "F001750",
+      "Index": "3"
+    },
+    {
+      "Id": "F001754",
+      "Code": "F001754",
+      "GroupId": "GF0019",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001750",
+      "Index": "4"
+    },
+    {
+      "Id": "F001755",
+      "Code": "F001755",
+      "GroupId": "GF0019",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001750",
+      "Index": "5"
+    },
+    {
+      "Id": "F001801",
+      "Code": "F001801",
+      "GroupId": "GF0015",
+      "Name": "Thêm mới vi phạm hành chính",
+      "ScreenCode": "F001800",
+      "Index": "1"
+    },
+    {
+      "Id": "F001802",
+      "Code": "F001802",
+      "GroupId": "GF0015",
+      "Name": "Chỉnh sửa vi phạm hành chính",
+      "ScreenCode": "F001800",
+      "Index": "2"
+    },
+    {
+      "Id": "F001803",
+      "Code": "F001803",
+      "GroupId": "GF0015",
+      "Name": "Xóa vi phạm hành chính",
+      "ScreenCode": "F001800",
+      "Index": "3"
+    },
+    {
+      "Id": "F001804",
+      "Code": "F001804",
+      "GroupId": "GF0015",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001800",
+      "Index": "4"
+    },
+    {
+      "Id": "F001805",
+      "Code": "F001805",
+      "GroupId": "GF0015",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001800",
+      "Index": "5"
+    },
+    {
+      "Id": "F001806",
+      "Code": "F001806",
+      "GroupId": "GF0015",
+      "Name": "Xem thống kê vi phạm hành chính",
+      "ScreenCode": "F001800",
+      "Index": "6"
+    },
+    {
+      "Id": "F001851",
+      "Code": "F001851",
+      "GroupId": "GF0007",
+      "Name": "Thêm mới điều tra hình sự",
+      "ScreenCode": "F001850",
+      "Index": "1"
+    },
+    {
+      "Id": "F001852",
+      "Code": "F001852",
+      "GroupId": "GF0007",
+      "Name": "Chỉnh sửa điều tra hình sự",
+      "ScreenCode": "F001850",
+      "Index": "2"
+    },
+    {
+      "Id": "F001853",
+      "Code": "F001853",
+      "GroupId": "GF0007",
+      "Name": "Xóa điều tra hình sự",
+      "ScreenCode": "F001850",
+      "Index": "3"
+    },
+    {
+      "Id": "F001854",
+      "Code": "F001854",
+      "GroupId": "GF0007",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001850",
+      "Index": "4"
+    },
+    {
+      "Id": "F001855",
+      "Code": "F001855",
+      "GroupId": "GF0007",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001850",
+      "Index": "5"
+    },
+    {
+      "Id": "F001856",
+      "Code": "F001856",
+      "GroupId": "GF0007",
+      "Name": "Xem thống điều tra hình sự",
+      "ScreenCode": "F001850",
+      "Index": "6"
+    },
+    {
+      "Id": "F001901",
+      "Code": "F001901",
+      "GroupId": "GF0041",
+      "Name": "Xem thông tin",
+      "ScreenCode": "F001900",
+      "Index": "1"
+    },
+    {
+      "Id": "F001902",
+      "Code": "F001902",
+      "GroupId": "GF0041",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001900",
+      "Index": "2"
+    },
+    {
+      "Id": "F001903",
+      "Code": "F001903",
+      "GroupId": "GF0041",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001900",
+      "Index": "3"
+    },
+    {
+      "Id": "F001951",
+      "Code": "F001951",
+      "GroupId": "GF0042",
+      "Name": "Xem thông tin",
+      "ScreenCode": "F001950",
+      "Index": "1"
+    },
+    {
+      "Id": "F001952",
+      "Code": "F001952",
+      "GroupId": "GF0042",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F001950",
+      "Index": "2"
+    },
+    {
+      "Id": "F001953",
+      "Code": "F001953",
+      "GroupId": "GF0042",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F001950",
+      "Index": "3"
+    },
+    {
+      "Id": "F002001",
+      "Code": "F002001",
+      "GroupId": "GF0008",
+      "Name": "Xem thông tin thưởng nóng",
+      "ScreenCode": "F002000",
+      "Index": "1"
+    },
+    {
+      "Id": "F002002",
+      "Code": "F002002",
+      "GroupId": "GF0008",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002000",
+      "Index": "2"
+    },
+    {
+      "Id": "F002003",
+      "Code": "F002003",
+      "GroupId": "GF0008",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002000",
+      "Index": "3"
+    },
+    {
+      "Id": "F002004",
+      "Code": "F002004",
+      "GroupId": "GF0008",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002000",
+      "Index": "3"
+    },
+    {
+      "Id": "F002051",
+      "Code": "F002051",
+      "GroupId": "GF0009",
+      "Name": "Xem thông tin ĐTCB địa bàn liên quan",
+      "ScreenCode": "F002050",
+      "Index": "1"
+    },
+    {
+      "Id": "F002052",
+      "Code": "F002052",
+      "GroupId": "GF0009",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002050",
+      "Index": "2"
+    },
+    {
+      "Id": "F002053",
+      "Code": "F002053",
+      "GroupId": "GF0009",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002050",
+      "Index": "3"
+    },
+    {
+      "Id": "F002054",
+      "Code": "F002054",
+      "GroupId": "GF0009",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002050",
+      "Index": "4"
+    },
+    {
+      "Id": "F002055",
+      "Code": "F002055",
+      "GroupId": "GF0009",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F002050",
+      "Index": "5"
+    },
+    {
+      "Id": "F002151",
+      "Code": "F002151",
+      "GroupId": "GF0043",
+      "Name": "Xem thông tin đối tượng truy nã",
+      "ScreenCode": "F002150",
+      "Index": "1"
+    },
+    {
+      "Id": "F002152",
+      "Code": "F002152",
+      "GroupId": "GF0043",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002150",
+      "Index": "2"
+    },
+    {
+      "Id": "F002153",
+      "Code": "F002153",
+      "GroupId": "GF0043",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002150",
+      "Index": "3"
+    },
+    {
+      "Id": "F002154",
+      "Code": "F002154",
+      "GroupId": "GF0043",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002150",
+      "Index": "3"
+    },
+    {
+      "Id": "F002101",
+      "Code": "F002101",
+      "GroupId": "GF0018",
+      "Name": "Xem thông tin tra cứu đối tượng vi phạm",
+      "ScreenCode": "F002100",
+      "Index": "1"
+    },
+    {
+      "Id": "F002102",
+      "Code": "F002102",
+      "GroupId": "GF0018",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002100",
+      "Index": "2"
+    },
+    {
+      "Id": "F002103",
+      "Code": "F002103",
+      "GroupId": "GF0018",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002100",
+      "Index": "3"
+    },
+    {
+      "Id": "F002104",
+      "Code": "F002104",
+      "GroupId": "GF0018",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002100",
+      "Index": "3"
+    },
+    {
+      "Id": "F002201",
+      "Code": "F002201",
+      "GroupId": "GF0044",
+      "Name": "Xem thông tin xuất nhập cảnh trái phép",
+      "ScreenCode": "F002200",
+      "Index": "1"
+    },
+    {
+      "Id": "F002202",
+      "Code": "F002202",
+      "GroupId": "GF0044",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002200",
+      "Index": "2"
+    },
+    {
+      "Id": "F002203",
+      "Code": "F002203",
+      "GroupId": "GF0044",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002200",
+      "Index": "3"
+    },
+    {
+      "Id": "F002204",
+      "Code": "F002204",
+      "GroupId": "GF0044",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002200",
+      "Index": "3"
+    },
+    {
+      "Id": "F002251",
+      "Code": "F002251",
+      "GroupId": "GF0045",
+      "Name": "Xem thông tin phối hợp điều tra xử lý",
+      "ScreenCode": "F002250",
+      "Index": "1"
+    },
+    {
+      "Id": "F002252",
+      "Code": "F002252",
+      "GroupId": "GF0045",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002250",
+      "Index": "2"
+    },
+    {
+      "Id": "F002253",
+      "Code": "F002253",
+      "GroupId": "GF0045",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002250",
+      "Index": "3"
+    },
+    {
+      "Id": "F002254",
+      "Code": "F002254",
+      "GroupId": "GF0045",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002250",
+      "Index": "3"
+    },
+    {
+      "Id": "F002301",
+      "Code": "F002301",
+      "GroupId": "GF0046",
+      "Name": "Xem thông tin phương án xử lý tài sản",
+      "ScreenCode": "F002300",
+      "Index": "1"
+    },
+    {
+      "Id": "F002302",
+      "Code": "F002302",
+      "GroupId": "GF0046",
+      "Name": "Xuất danh sách excel",
+      "ScreenCode": "F002300",
+      "Index": "2"
+    },
+    {
+      "Id": "F002303",
+      "Code": "F002303",
+      "GroupId": "GF0046",
+      "Name": "Xuất danh sách pdf",
+      "ScreenCode": "F002300",
+      "Index": "3"
+    },
+    {
+      "Id": "F002304",
+      "Code": "F002304",
+      "GroupId": "GF0046",
+      "Name": "Xem lịch sử thay đổi dữ liệu",
+      "ScreenCode": "F002300",
+      "Index": "4"
+    },
+    {
+      "Id": "F002305",
+      "Code": "F002305",
+      "GroupId": "GF0046",
+      "Name": "Xuất báo cáo",
+      "ScreenCode": "F002300",
+      "Index": "5"
+    },
+    {
+      "Id": "F002351",
+      "Code": "F002351",
+      "GroupId": "GF0047",
+      "Name": "Xuất dữ liệu",
+      "ScreenCode": "F002350",
+      "Index": "1"
+    }
+  ]
+}

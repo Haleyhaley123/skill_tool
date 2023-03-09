@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'ntsicon';
+  src:  url('fonts/ntsicon.eot?6y273p');
+  src:  url('fonts/ntsicon.eot?6y273p#iefix') format('embedded-opentype'),
+    url('fonts/ntsicon.ttf?6y273p') format('truetype'),
+    url('fonts/ntsicon.woff?6y273p') format('woff'),
+    url('fonts/ntsicon.svg?6y273p#ntsicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="nts-icon-"], [class*=" nts-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ntsicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nts-icon-eye:before {
+  content: "\e900";
+  color: #839cb0;
+}
+.nts-icon-phone-volum:before {
+  content: "\e901";
+  color: #ff6767;
+}
+.nts-icon-phone:before {
+  content: "\e902";
+  color: #ff6767;
+}
+.nts-icon-camera:before {
+  content: "\e931";
+  color: #fff;
+}
+.nts-icon-file-vb:before {
+  content: "\e903";
+}
+.nts-icon-search-eye:before {
+  content: "\e904";
+}
+.nts-icon-fill:before {
+  content: "\e905";
+}
+.nts-icon-online-investigation:before {
+  content: "\e906";
+}
+.nts-icon-export:before {
+  content: "\e907";
+}
+.nts-icon-import:before {
+  content: "\e908";
+}
+.nts-icon-history:before {
+  content: "\e909";
+}
+.nts-icon-group-user:before {
+  content: "\e90a";
+}
+.nts-icon-category:before {
+  content: "\e90b";
+}
+.nts-icon-unit:before {
+  content: "\e90c";
+}
+.nts-icon-basic-investigation:before {
+  content: "\e90d";
+}
+.nts-icon-home:before {
+  content: "\e90e";
+}
+.nts-icon-thematic:before {
+  content: "\e90f";
+}
+.nts-icon-line:before {
+  content: "\e910";
+}
+.nts-icon-major:before {
+  content: "\e911";
+}
+.nts-icon-bar-chart:before {
+  content: "\e912";
+}
+.nts-icon-chart-vecter:before {
+  content: "\e913";
+}
+.nts-icon-padlock:before {
+  content: "\e914";
+}
+.nts-icon-checked-list:before {
+  content: "\e915";
+}
+.nts-icon-user:before {
+  content: "\e916";
+}
+.nts-icon-victim:before {
+  content: "\e917";
+}
+.nts-icon-building:before {
+  content: "\e918";
+}
+.nts-icon-dollar:before {
+  content: "\e919";
+}
+.nts-icon-addicts:before {
+  content: "\e91a";
+}
+.nts-icon-folder:before {
+  content: "\e91b";
+}
+.nts-icon-criminal:before {
+  content: "\e91c";
+}
+.nts-icon-army:before {
+  content: "\e91d";
+}
+.nts-icon-secret-agent:before {
+  content: "\e91e";
+}
+.nts-icon-check-list:before {
+  content: "\e91f";
+}
+.nts-icon-map-vietnam:before {
+  content: "\e920";
+}
+.nts-icon-cdr:before {
+  content: "\e921";
+}
+.nts-icon-chart:before {
+  content: "\e922";
+}
+.nts-icon-dashboard:before {
+  content: "\e923";
+}
+.nts-icon-file:before {
+  content: "\e924";
+}
+.nts-icon-files:before {
+  content: "\e925";
+}
+.nts-icon-grobal:before {
+  content: "\e926";
+}
+.nts-icon-grobal-localtion-line:before {
+  content: "\e927";
+}
+.nts-icon-grobal-point:before {
+  content: "\e928";
+}
+.nts-icon-led:before {
+  content: "\e929";
+}
+.nts-icon-list:before {
+  content: "\e92a";
+}
+.nts-icon-location-line:before {
+  content: "\e92b";
+}
+.nts-icon-report:before {
+  content: "\e92c";
+}
+.nts-icon-search:before {
+  content: "\e92d";
+}
+.nts-icon-setting:before {
+  content: "\e92e";
+}
+.nts-icon-shield:before {
+  content: "\e92f";
+}
+.nts-icon-user-login:before {
+  content: "\e930";
+}

@@ -1,0 +1,251 @@
+<div class='content-wrapper'>
+    <section class="box">
+        <div class="content-body">
+            <form name="form" class="tab-form-demo" #f="ngForm" novalidate>
+                <div class="row">
+                    <header>
+                        <h2 class="title">Thông tin cá nhân</h2>
+                    </header>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 text-center">
+                        <img class="img-thumbnail" style="height:166px;width:166px;border-radius: 100px;"
+                            [src]="fileProcess.fileModel.DataURL?fileProcess.fileModel.DataURL: (filedata?filedata:'/assets/img/noavatar.png')">
+
+                        <button type="button" class="btn-upload" (click)="fileImage.click();"
+                            container="body">
+                            <i class="nts-icon-camera" style="font-size: 24px;line-height: 46px;" ngbTooltip="Upload ảnh"></i>
+                        </button>
+                        <!-- <a href="javascript:void(0)" >
+                            <i class="fas fa-camera" style="font-size: 25px;" ngbTooltip="Upload ảnh"></i>
+                        </a> -->
+                        <input name="fileDataSheetmaterial" style="display: none;" type="file"
+                            accept="image/png, image/gif, image/jpeg" id="fileDataSheet" #fileImage
+                            (change)="onFileChange($event)" single />
+
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Tên tài khoản
+                                        <span class='text-danger text-strong'>&nbsp;*</span>
+                                    </label>
+                                    <div class="controls">
+                                        <input type="text" class="form-control" name="userName"
+                                            [(ngModel)]="model.userName" maxlength="500" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Họ và tên</label>
+                                    <div class="controls">
+                                        <input type="text" class="form-control" name="fullName"
+                                            [(ngModel)]="model.fullName" maxlength="500">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Email</label>
+                                    <div class="controls">
+                                        <input type="text" class="form-control" name="email" [(ngModel)]="model.email"
+                                            maxlength="500">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Số điện thoại</label>
+                                    <div class="controls">
+                                        <input type="text" class="form-control" name="phoneNumber"
+                                            [(ngModel)]="model.phoneNumber" maxlength="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Nhóm quyền</label>
+                                    <div class="controls">
+                                        <ng-select [items]="listUserGroup" bindLabel="name" bindValue="id"
+                                            [(ngModel)]="model.groupId" name="groupId"
+                                            (ngModelChange)="changeGroupUser()">
+                                        </ng-select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div class="form-group ">
+                                    <label class="form-label">Đơn vị
+                                        <span class='text-danger text-strong'>&nbsp;*</span>
+                                    </label>
+                                    <div class="controls">
+                                        <ng-select [items]="listDonVi" bindLabel="name" bindValue="id"
+                                            [(ngModel)]="model.idDonVi" name="idDonVi" required>
+                                        </ng-select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 radio">
+                                <div class="form-group ">
+                                    <label class="form-label">Tình trạng
+                                        <span class='text-danger text-strong'>&nbsp;*</span>
+                                    </label>
+                                    <ng-container *ngFor="let status of constant.User_Status; let i = index">
+                                        <label class="radio">{{status.Name}}
+                                            <input type="radio" name="status" [(ngModel)]="model.status"
+                                                [value]="status.Id">
+                                            <span class="checkround"></span>
+                                        </label>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="form-group ">
+                            <label class="form-label">Mô tả</label>
+                            <div class="controls">
+                                <div class="controls">
+                                    <textarea type="text" class="form-control" [(ngModel)]="model.description"
+                                        name="description" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" #scrollPracticeMaterial>
+                        <div class="row">
+                            <header>
+                                <h2 class="title">Danh sách nhóm chức năng</h2>
+                                <label class="form-label" style="line-height:35px;">Tổng số
+                                    <span class="bold text-danger">{{groupFunctions.length}}</span> nhóm quyền</label>
+                            </header>
+                            <div class="col-md-12" #scrollPracticeMaterialHeader
+                                style="padding-bottom: 5px; overflow-x: auto;overflow: hidden;">
+                                <table class="table table-bordered table-fixed mb-0"
+                                    style="margin-bottom:0px !important; min-width: 355px;">
+                                    <thead style="height: 41.5px;">
+                                        <tr>
+                                            <th width="50px" class="text-center">STT</th>
+                                            <th width="55px" class="text-center">Chọn</th>
+                                            <th min-width="100px">Tên nhóm chức năng</th>
+                                            <th width="150px">Quyền/Tổng quyền</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <perfect-scrollbar class="ps-bordered" [config]="constant.ScrollConfig"
+                                    [style.max-height.px]="height">
+                                    <table class="table table-bordered table-fixed table-hover"
+                                        style="min-width: 355px;">
+                                        <colgroup>
+                                            <col width="50px">
+                                            <col width="55px">
+                                            <col min-width="100px">
+                                            <col width="150px">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr *ngFor="let row of groupFunctions; let i = index"
+                                                [ngClass]="{'selected':groupSelectIndex == i}"
+                                                (click)="selectGroupFunction(row,i)">
+                                                <td class="text-center" width="50px"> {{i+1}}</td>
+                                                <td class="text-center" width="55px">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input class="text-center" [(ngModel)]="row.isChecked"
+                                                            type="checkbox" class="custom-control-input" [id]="'b'+i"
+                                                            [name]="'b'+i"
+                                                            (ngModelChange)="changeGroupFunctionCheck(row, i)"
+                                                            [indeterminate]="row.isIndeterminate">
+                                                        <label class="custom-control-label" [for]="'b'+i"></label>
+                                                    </div>
+                                                </td>
+                                                <td min-width="100px">{{row.name}}</td>
+                                                <td width="150px">{{row.checkCount}}/{{row.permissionTotal}}
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </perfect-scrollbar>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 padding-left-0" #scrollPermession>
+                        <div class="row">
+                            <header>
+                                <h2 class="title"> Danh sách quyền</h2>
+                                <label class="form-label" style="line-height:35px;">Tổng số
+                                    <span class="bold text-danger">{{listFunctions}}</span> quyền</label>
+                            </header>
+                            <div class="col-md-12" #scrollPermessionHeader
+                                style="padding-bottom: 5px; overflow-x: auto;overflow: hidden;">
+                                <table class="table table-bordered"
+                                    style="margin-bottom:0px !important; min-width: 150px;">
+                                    <thead>
+                                        <tr>
+                                            <th width="50px" class="text-center">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input class="text-center" [(ngModel)]="isSelectAll" type="checkbox"
+                                                        class="custom-control-input" id="checkAll" name="checkAll"
+                                                        (ngModelChange)="selectAllPermission()">
+                                                    <label class="custom-control-label" for="checkAll"></label>
+                                                </div>
+                                            </th>
+                                            <th min-width="100px" class="center">Tên quyền</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <perfect-scrollbar class="ps-bordered" [config]="constant.ScrollConfig"
+                                    [style.max-height.px]="height">
+                                    <table class="table table-bordered" style="min-width:150px">
+                                        <colgroup>
+                                            <col width="50px">
+                                            <col min-width="100px">
+                                        </colgroup>
+                                        <tbody>
+                                            <ng-container *ngIf="groupSelectIndex!=-1 && groupFunctions.length>0">
+                                                <tr
+                                                    *ngFor="let row of groupFunctions[groupSelectIndex].permissions; let i= index">
+                                                    <td width="50px" class="text-center">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="text-center" [(ngModel)]="row.isChecked"
+                                                                type="checkbox" class="custom-control-input"
+                                                                [id]="'a'+i" [name]="'a'+i"
+                                                                (ngModelChange)="selectPermission(row)">
+                                                            <label class="custom-control-label" [for]="'a'+i"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td min-width="100px">
+                                                        <a><span>{{row.name}}</span></a>
+                                                    </td>
+                                                </tr>
+                                            </ng-container>
+                                        </tbody>
+                                    </table>
+                                </perfect-scrollbar>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="content-body text-right">
+            <button type="button" class="btn btn-success" (click)="save(false)" [disabled]="!f.form.valid">
+                <i class="fa fa-save"></i>&nbsp;
+                <span>Lưu</span>
+            </button>
+            <ng-container *ngIf="!id">
+                <button type="button" class="btn btn-success" [disabled]="!f.form.valid" (click)="saveAndContinue()">
+                    <i class="fa fa-save"></i>&nbsp;
+                    <span>Lưu & Tiếp tục</span>
+                </button>
+            </ng-container>
+            <button type="button" class="btn btn-danger" (click)="closeModal(false)">
+                <i class="fa fa-power-off"></i> &nbsp;
+                <span>
+                    Đóng
+                </span>
+            </button>
+        </div>
+    </section>
+</div>

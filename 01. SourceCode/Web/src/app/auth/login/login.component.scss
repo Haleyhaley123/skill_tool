@@ -1,0 +1,82 @@
+app-login {
+    .login-page {
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #142d21eb;
+        height: 100%;
+        max-height: 100%;
+        min-height: 99%;
+        overflow: hidden;
+        width: 100%;
+        display: block;
+        &::after {
+            content: "";
+            background-image: url(/assets/img/bg.jpg);
+            background-color: #142d21eb;
+            opacity: 0.4;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    .login-wrapper {
+        height: 100%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .login {
+        padding: 70px 50px 70px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+        margin-top: 5%;
+
+        .title {
+            line-height: 1.5;
+            color: white;
+            text-align: center;
+        }
+        .btn {
+            width: 100%;
+        }
+    }
+
+    .field-icons {
+        float: right;
+        margin-left: -25px;
+        margin-top: -29px;
+        position: relative;
+        z-index: 3;
+        padding-right: 26px;
+        line-height: 16.5px;
+    }
+
+    .login-check a {
+        // text-decoration: none;
+        color: #fff;
+    }
+    // .login-check a:hover {
+    //     color: #1993e5 !important;
+    // }
+
+    .content-login {
+        input {
+            height: 40px;
+
+            &.form-control {
+                font-size: 16px;
+            }
+        }
+
+        font-size: 16px;
+    }
+
+    .btn-login {
+        height: 40px;
+        font-size: 16px;
+    }
+}

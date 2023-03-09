@@ -1,0 +1,12 @@
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\bin\Debug\net5.0\NTS.Redis.deps.json
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\bin\Debug\net5.0\NTS.Redis.dll
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\bin\Debug\net5.0\NTS.Redis.pdb
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.csproj.AssemblyReference.cache
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.AssemblyInfoInputs.cache
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.AssemblyInfo.cs
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.csproj.CoreCompileInputs.cache
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.dll
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\refint\NTS.Redis.dll
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\NTS.Redis.pdb
+D:\Hà\NTS_TRAINNING\01. SourceCode\API\NTS.Redis\obj\Debug\net5.0\ref\NTS.Redis.dll

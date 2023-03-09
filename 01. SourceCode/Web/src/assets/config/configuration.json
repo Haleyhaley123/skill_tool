@@ -1,0 +1,14 @@
+{
+  "ServerApi": "http://localhost:51753/",
+  "ServerImage": "http://192.168.100.105:9511/",
+  "ServerWithApiUrl": "http://localhost:51753/api/",
+  "ClientId": "PCTPMT_Web",
+  "ClientSecret": "nhantinsoft",
+  "ServerUploadFile": "http://192.168.100.105:9511/api/",
+  "UrlUserManual": "Template/HƯỚNG DẪN SỬ DỤNG PHẦM MỀM TRÊN WEB.docx",
+  "PhonePhongTSKT": "086 627 7726",
+  "PhoneHotline": "094 111 1698",
+  "ImageOriginal": "ImageOriginal",
+  "ImageThumb": "ImageThumb",
+  "Document": "Document"
+}

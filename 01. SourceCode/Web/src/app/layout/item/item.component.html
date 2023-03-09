@@ -1,0 +1,11 @@
+<li routerLinkActive="active" *appUipermission="item.permission">
+    <a routerLinkActive="active" [routerLink]="[item.url]" class="ai-icon" *ngIf="item.icon" >
+        <i class="nts-icon-{{item.icon}}"></i>
+        <span class="nav-text"> {{item.title}}</span>
+    </a>
+    <a routerLinkActive="active" [routerLink]="[item.url]" *ngIf="!item.icon" class="nav-item-none">
+        <!-- {{item.title}}
+        <i class="nts-icon-{{item.icon}}"></i> -->
+        <span class="nav-text"> {{item.title}}</span>
+    </a>
+</li>

@@ -1,0 +1,13 @@
+<li [ngClass]="{'active':isOpen}" *appUipermission="item.permission">
+    <a class="nav-arrow ai-icon" href="javascript:void(0)" (click)="toggleOpen($event)" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed">
+        <i class="nts-icon-{{item.icon}}"></i>
+        <span class="nav-text">{{item.title}}</span>
+    </a>
+    <ul class="" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed" [id]="item.id" [ngClass]="{'nav-show':isOpen}">
+        <ng-container *ngFor="let child of item.children">
+            <!-- <nav-item [item]="child"></nav-item> -->
+            <nav-collapsable *ngIf="child.type=='collapsable'" [item]="child"></nav-collapsable>
+            <nav-item *ngIf="child.type=='item'" [item]="child"></nav-item>
+        </ng-container>
+    </ul>
+</li>

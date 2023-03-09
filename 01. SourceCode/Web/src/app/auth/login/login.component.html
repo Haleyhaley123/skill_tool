@@ -1,0 +1,66 @@
+<div class="login-page">
+    <div class="login-wrapper">
+        <div class="row justify-content-center">
+            <div id="login" class="login loginpage col-xl-5 col-lg-5 col-md-6 col-sm-8">
+                <h2 class="title text-uppercase">phần mềm quản lý cơ sở dữ liệu nghiệp vụ phòng chống ma túy và tội phạm
+                </h2>
+                <form name="form" class="form-validation mt-5" (ngSubmit)="f.form.valid && login()" #f="ngForm"
+                    novalidate>
+                    <div class="row justify-content-center content-login">
+                        <div class="col-xl-6 col-lg-6 col-md-10">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="fas fa-user" style="color: #999;"></i>
+                                    </span>
+                                </div>
+                                <input type="text" name="text" class="form-control" placeholder="Tên đăng nhập.."
+                                    [(ngModel)]="model.username" #username="ngModel" required />
+                            </div>
+                            <div *ngIf="f.submitted && !username.valid" class="help-block text-warning">Tên đăng nhập
+                                không được để trống
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center content-login mt-3">
+                        <div class="col-xl-6 col-lg-6 col-md-10">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="fas fa-lock" style="color: #999;"></i>
+                                    </span>
+                                </div>
+                                <input id="password-field" type="password" name="pwd" class="form-control"
+                                    placeholder="Mật khẩu.." [(ngModel)]="model.password" required />
+
+                            </div>
+                            <a href="javascript:void(0)" style="text-decoration: none;color: #7e7e7e;">
+                                <span toggle="#password-field"
+                                    class="fa fa-fw fa-eye field-icons toggle-password"></span>
+                            </a>
+                        </div>
+                        <!-- <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                        <label class="custom-control-label" for="defaultUnchecked">Ghi nhớ tàikhoản</label>
+                                    </div>
+                                </div> -->
+                    </div>
+                    <div class="row justify-content-center content-login">
+                        <div class="col-xl-6 col-lg-6 col-md-10 login-check text-center mt-3">
+                            <a href="javascript:void(0)" (click)="forgotPassword()">Quên mật khẩu</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center content-login">
+                        <div class="col-xl-6 col-lg-6 col-md-10  mt-4">
+                            <button class="btn btn-success font-weight-bold btn-login">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-warning text-center mt-2">
+                    {{message}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

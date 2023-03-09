@@ -1,0 +1,94 @@
+<div class="heard-login">
+    <div class="nav-header">
+        <a class="brand-logo" style="text-decoration: none;">
+            <span class="text-center" style="width:200px;font-size:30px">
+                <div style="text-align: center;color: #ffffff;">
+                    <span style="font-size: 26px;">BỘ ĐỘI BIÊN PHÒNG</span><br>
+                    <span>CỤC PHÒNG, CHỐNG MA TÚY VÀ TỘI PHẠM</span>
+                </div>
+            </span>
+        </a>
+    </div>
+</div>
+<div class="login-reg-panel">
+    <div class="login-info-box">
+        <img class="logo" src="./assets/img/logo-remove.png" style="height: 160px; width: auto;padding-bottom: 30px;">
+        <h2 class="title text-uppercase" style="font-weight: 500;">chương trình
+        </h2>
+        <h2 class="title text-uppercase">quản lý dữ liệu nghiệp vụ
+        </h2>
+        <h2 class="title text-uppercase">phòng chống ma túy
+        </h2>
+        <h2 class="title text-uppercase">và tội phạm
+        </h2>
+    </div>
+    <div class="white-panel">
+        <div class="login-show">
+            <form (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+                <h2 class="title">ĐĂNG NHẬP</h2>
+                <div class="input-group">
+                    <i class="nts-icon-user-login icon-first"></i>
+                    <input type="text" style="font-size: 16px;color: #839CB0;" placeholder="Tài khoản" name="username"
+                        class="form-control" [(ngModel)]="model.username" #username="ngModel" required
+                        [ngClass]="{'is-invalid':f.submitted && username.invalid}">
+                    <div *ngIf="f.submitted && username.invalid" class="invalid-feedback">
+                        <div *ngIf="username.errors.required">Tên đăng nhập
+                            không được để trống</div>
+                    </div>
+                </div>
+
+                <div class="input-group" style="margin-bottom: 16px;">
+                    <i class="nts-icon-padlock icon-first"></i>
+                    <input type="password" name="password" id="password-field" style="color: #839CB0;"
+                        placeholder="Mật khẩu" [(ngModel)]="model.password" #password="ngModel" required
+                        [ngClass]="{'is-invalid':f.submitted && password.invalid}">
+                    <i toggle="#password-field" class="nts-icon-eye icon-last field-icons toggle-password"></i>
+                    <div *ngIf="f.submitted && password.invalid" class="invalid-feedback">
+                        <div *ngIf="password.errors.required">Mật khẩu
+                            không được để trống</div>
+                    </div>
+                </div>
+
+                <div class="text-danger text-center mb-2">
+                    {{message}}
+                </div>
+
+                <div class="footer mb-3">
+                    <!-- <a href="javascript:void(0)" (click)="forgotPassword()">Quên mật khẩu?</a> -->
+                    <div class="custom-control custom-checkbox text-right">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                        <label class="custom-control-label" for="defaultUnchecked">Ghi nhớ</label>
+                    </div>
+                </div>
+                <div class="footer">
+                    <span style="width:100%">
+                        <button class="btn btn-success btn-login">ĐĂNG NHẬP</button>
+                    </span>
+                </div>
+                <div class="login-help">
+                    <div class="menu">
+                        <i class="nts-icon-phone icon text-danger"></i>
+                        <p class="x-trin lato-normal-bright-gray-16px" style="padding-left: 10px;">
+                            <span>- Phòng trinh sát kỹ thuật: {{config.PhonePhongTSKT}}</span>
+                            <!-- <span style="color: blue;">{{config.PhonePhongTSKT}}</span><br> -->
+                        </p>
+                    </div>
+                    <div class="menu-1">
+                        <i class="nts-icon-phone-volum icon text-danger"></i>
+                        <p class="x-trin lato-normal-bright-gray-16px" style="padding-left: 10px;">
+                            <span>- Đơn vị phát triển phần mềm: {{config.PhoneHotline}}</span>
+                            <!-- <span style="color: blue;">{{config.PhoneHotline}}</span><br> -->
+                        </p>
+                    </div>
+                    <!-- <i class="fas fa-phone-volume icon text-danger"></i>
+                    <div class="phone">
+                        <span>- Phòng trinh sát kỹ thuật: </span> <span
+                            style="color: blue;">{{config.PhonePhongTSKT}}</span><br>
+                        <span>- Đơn vị phát triển phần mềm: </span> <span
+                            style="color: blue;">{{config.PhoneHotline}}</span><br>
+                    </div> -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
